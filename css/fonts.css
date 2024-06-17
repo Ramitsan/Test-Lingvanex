@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url('../assets/fonts/Inter-SemiBold.woff2') format('woff2'), url('../assets/fonts/Inter-SemiBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../assets/fonts/Inter-Regular.woff2') format('woff2'), url('../assets/fonts/Inter-Regular.woff') format('woff');  
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url('../assets/fonts/Inter-Black.woff2') format('woff2'), url('../assets/fonts/Inter-Black.woff') format('woff');  
+}
+
+@font-face {
+  font-family: 'Manrope';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url('../assets/fonts/Manrope-Regular.woff2') format('woff2'), url('../assets/fonts/Manrope-Regular.woff') format('woff'); 
+}
+
+
