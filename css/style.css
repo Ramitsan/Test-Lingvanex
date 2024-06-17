@@ -48,6 +48,17 @@ button {
   color: #fff;
   background: #0146FE;
   border-radius: 12px;
+  transition: all 0.3s;
+}
+
+.main-button:focus,
+.main-button:hover {
+  background-color: #033bd4;
+  box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.3);
+}
+
+.main-button:active {
+  opacity: .8;
 }
 
 .visually-hidden {
@@ -310,6 +321,10 @@ button {
 .tab__image-wrapper {
   width: 50%;
   padding-left: 26px;
+}
+
+.tab__image {
+  border-radius: 32px;
 }
 
 .tab--two,
@@ -627,6 +642,10 @@ button {
   .tab__title {
     font-size: 36px;
     text-align: center;
+  }
+
+  .tab__image {
+    border-radius: 26px;
   }
 
   .tab__features-list {
